@@ -1,0 +1,21 @@
+git config --global user.name doardo9x
+git config --global user.email eduardo010304@gmail.com
+
+dotnet new mvc -o NineFlix
+
+dotnet new sln --name NineFlix
+
+dotnet sln add NineFlix\NineFlix.csproj
+
+Instalar pacotes no projeto:
+    1 - Usar o site nuget.org e o dotnet CLI
+        dotnet add package Microsoft.EntityFrameworkCore --version 8.0.4
+        dotnet add package Microsoft.EntityFrameworkCore.Desing --version 8.0.4
+        dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.4
+        dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.2
+
+
+        
+    2 - Usar extensões do CODE como Nuget Gallery
+        Shift + Ctrl + P
+        Digitar Nuget
